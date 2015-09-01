@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	height:100%;
+	width: 1000px;
+	}
+html {
+display:table; 
+width:100%;
+}
+body {
+	display:table-cell; 
+	text-align:center;
+	background-color: #FFFF;
+	}
+#navigation {
+	background-color:#06F;
+	padding-left: 182px;
+	margin-bottom: 5px;
+	}
+#navigation a {
+	color:#FFF;
+	text-decoration:none;	
+}
+#navigation ul li {
+	display:inline;	
+	color:#FFF;
+	padding-left: 10px;
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+#header-img { 
+	width: 900px; 
+	margin: 0px 0px 5px;
+}
+#news {
+	width: 900px;
+	height: 200px;
+	background-color: #06F;	
+	text-align:left;
+	margin: 0px 0px 5px;
+}
+#new-content {
+	padding-left: 100px;	
+	padding-top: 50px;
+	color:#FFF;
+}
+#content {
+	width: 900px;	
+	padding-left: 230px;
+	font-family: 'Montserrat', sans-serif;
+}
+#news2 {
+	width: 900px; 
+	height: 300px;
+	background-image:url(html-bck.jpg);	
+}
+#bird-profile {
+	color:#06F;
+	text-align:left;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+.birdclass {
+	padding: 5px;
+	background-color:#FFF;
+	width: 200px;
+	height: 140px;
+	color: #000;
+	text-align:center;
+	font-weight: bold;
+	border-style: solid;
+    border-color:#FFF #FFF #F90;
+}
+.birdclass img{
+	width: 198px;
+	margin-bottom: 5px;	
+}
